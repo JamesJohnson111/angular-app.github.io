@@ -1,0 +1,81 @@
+html {
+    font-size: 62.5%; /*8.8px = 1rem*/
+}
+@media(max-width:998px) {
+    html {
+        font-size: 55%; /*8.8px = 1rem*/
+    }
+}
+@media(max-width:768px) {
+    html {
+        font-size: 40%; /*7.2px = 1rem*/
+    }
+}
+@media(max-width:600px) {
+    html {
+        font-size: 30%;
+    }
+}
+.loading-page {
+    width: 100%;
+    height: 100vh;
+    background: #fff center no-repeat;
+    position: fixed;
+    z-index: 99999;
+    align-content: center;
+    padding-top: 30rem;
+}
+a:hover {
+    text-decoration: none;
+}
+.top-bar {
+    position: sticky;
+    top: 0;
+}
+.top-second-bar {
+    position: sticky;
+    top: 5.7rem;
+}
+.site-search {
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid grey;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    width: 70%;
+    padding: 2rem;
+}
+.site-search:focus {
+    box-shadow: none;
+    border:0;
+    border-bottom: 1px solid grey;
+}
+.topbar-links {
+    text-decoration: none;
+    font-size: 2rem;
+}
+.topbar-links > i {
+    margin: 2rem .5rem 0 .5rem;
+}
+.topbar-icons {
+    font-size: 2rem;
+    border-radius: 50%;
+    padding: 1rem;
+    transition: 0.5s;
+    margin: 1.3rem 1rem 0 1rem;
+    color: #FF4F5A;
+}
+.topbar-icons:hover {
+    background-color: #FF4F5A;
+    color: #fff;
+}
+.top-second-bar {
+    background-color: #FF4F5A;
+    color: #fff;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+    font-size: 1.3rem;
+    margin: 0 1rem;
+    font-family: Raleway;
+    color: #fff;
+}

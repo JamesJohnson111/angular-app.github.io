@@ -1,0 +1,61 @@
+<div class="card border-0 shadow" style="font-family: Raleway;">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <img src={{src}} width="100%" class="card-img" />
+            </div>
+            <div class="col pt-5 text-center">
+                <div class="card-body">
+                    <h3 class="card-title">{{title}}</h3>
+                    <hr class="w-50" style="margin-left: 25%;" />
+                    <hr class="w-25" style="margin-left: 37.5%;" />
+                    <p class="card-text text-justify text-center">{{cardtxt}}</p>
+                    <div class="text-right mt-5">
+                        <button type="button" class="btn card-btn" data-toggle="modal" data-target="#details">
+                            {{btntxt}} <i class="fas fa-chevron-circle-right ml-2"></i>
+                        </button>
+                        <style>
+                            .card-btn:focus {
+                                box-shadow: none;
+                            }
+                        </style>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="details" role="dialog" style="font-family: Raleway;">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title" style="font-family: Lato;">
+                    Our Services
+                </h1>
+                <button type="button" style="font-size: 15px" class="close mx-2" data-dismiss="modal">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <img src="./images/img1.png" width="100%" class="modal-img" />
+            <div class="modal-body">
+                <h3>
+                    Thank You For Visiting My Angular App
+                </h3>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn shadow border-0 py-3 px-5 m-3 close-btn" data-dismiss="modal">Close</button>
+                <style>
+                    .close-btn {
+                        transition: 0.3s;
+                    }
+                    .close-btn:hover {
+                        transform: translateY(-3px)
+                    }
+                </style>
+            </div>
+        </div>
+
+    </div>
+</div>

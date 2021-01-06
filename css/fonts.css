@@ -1,0 +1,44 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/Raleway-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Oxygen;
+    src: url(../fonts/Oxygen-Regular.ttf);
+}
+@font-face {
+    font-family: Lato;
+    src: url(../fonts/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: Exo;
+    src: url(../fonts/Exo-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Merriweather;
+    src: url(../fonts/Merriweather-Regular.ttf);
+}
+@font-face {
+    font-family: OpenSans;
+    src: url(../fonts/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: PoiretOne;
+    src: url(../fonts/PoiretOne-Regular.ttf);
+}
+@font-face {
+    font-family: Pacifico;
+    src: url(../fonts/Pacifico-Regular.ttf);
+}
+@font-face {
+    font-family: JosefinSans;
+    src: url(../fonts/JosefinSans-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Quicksand;
+    src: url(../fonts/Quicksand-VariableFont_wght.ttf);
+}

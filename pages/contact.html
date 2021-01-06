@@ -1,0 +1,42 @@
+<div class="container">
+    <heading head="Contact"></heading>
+    <div class="row">
+        <div class="col col-sm-6 pt-5">
+            <form class="shadow" style="font-family: Oxygen;">
+                <h3 style="font-family: JosefinSans;">Keep in touch</h3>
+                <input type="text" class="form-control form-control-lg my-4" placeholder="Your Name" required />
+                <input type="email" class="form-control form-control-lg my-4" placeholder="Your Email" required />
+                <textarea style="height: 12rem;" class="form-control form-control-lg my-4" placeholder="Leave Your Message"></textarea>
+                <button type="reset" class="btn bg-white shadow px-5 py-2 mx-2">Cancel</button>
+                <button type="submit" class="btn bg-white shadow px-5 py-2 mx-2">Submit</button>
+            </form>
+        </div>
+        <div class="col col-sm-4 px-5 text-center">
+            <img src="./images/3190364.jpg" width="100%" />
+        </div>
+        <div class="col col-sm-2"></div>
+    </div>
+</div>
+<style>
+    form {
+        width: 50%;
+        margin-left: 25%;
+        padding: 2rem;
+    }
+    form .btn {
+        color: #FF4F5A;
+    }
+    form .form-control {
+        border: 0;
+        border-bottom: 1px solid lightgrey;
+    }
+    .form-control::placeholder {
+        color: #FF4F5A;
+        opacity: 0.8;
+    }
+    .form-control:focus {
+        box-shadow: none;
+        border: 0;
+        border-bottom: 1px solid lightgrey;
+    }
+</style>
